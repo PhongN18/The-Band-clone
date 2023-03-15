@@ -82,6 +82,10 @@ html {
     padding: 16px 16px;
     display: inline-block;
     border: none;
+    appearance: none; 
+    /* Bỏ qua cài đặt mặc định của trình duyệt */
+    -webkit-appearance: none;
+    /* Phải có tiền tố webkit mới áp dụng được cho safari */
 }
 
 .btn:hover {
@@ -378,6 +382,11 @@ và li là con trực tiếp của #nav */
     border: 1px solid #ccc;
     padding: 8px;
     width: 100%;
+    font-size: 16px;
+}
+
+.contact-submit-btn {
+    font-size: 16px;
 }
 
 .map-section img {
