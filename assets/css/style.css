@@ -96,10 +96,6 @@ html {
 
 /* Main */
 
-#main {
-
-}
-
 #header {
     height: 46px;
     background-color: #000;
@@ -234,10 +230,6 @@ và li là con trực tiếp của #nav */
     font-size: 15px;
 }
 
-#content {
-
-}
-
 #content .content-section {
     width: 800px;
     max-width: 100%; 
@@ -348,10 +340,6 @@ và li là con trực tiếp của #nav */
     font-size: 15px;
 }
 
-.place-heading {
-
-}
-
 .place-date {
     margin-top: 15px;
     opacity: 0.6;
@@ -364,10 +352,6 @@ và li là con trực tiếp của #nav */
 
 
 /* Contact Form */
-.contact-content {
-    
-}
-
 .contact-info {
     font-size: 18px;
     line-height: 1.5;
