@@ -104,7 +104,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1; /* Sắp xếp layer khi sử dụng position */
-    overflow: hidden;
 }
 
 #header .menu-bar,
@@ -360,6 +359,15 @@ và li là con trực tiếp của #nav */
 .contact-info i {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a {
+    color: #00e;
+    opacity: 0.7;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-form {
