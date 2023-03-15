@@ -218,7 +218,7 @@
                     </label>
                     <input type="email" id="modal-email" placeholder="Enter email" class="modal-input">
 
-                    <button id="buy-ticket">
+                    <button id="buy-ticket" class="js-pay-btn">
                         Pay <i class="ti-check"></i>
                     </button>
                 </div>
@@ -237,6 +237,7 @@
             const modal = document.querySelector('.js-modal')
             const modalContainer = document.querySelector('.js-modal-container')
             const modalClose = document.querySelector('.js-modal-close')
+            const payBtn = document.querySelector('.js-pay-btn')
 
             // Hàm hiển thị modal -> thêm class open vào modal
             function showBuyTickets () {
@@ -259,6 +260,8 @@
 
 
             modal.addEventListener('click', hideBuyTickets)
+
+            payBtn.addEventListener('click', hideBuyTickets)
 
 
             // Ngừng cơ chế sủi bọt 
