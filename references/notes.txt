@@ -1,0 +1,23 @@
+I. Components of a website
+- Header (Đầu trang)
+- Navigation (Điều hướng trang)
+- Breadcrumb (VD: Home > Products > ...)
+- Sidebar (Left or Right) 
+- Slider (Image/Video/Text/...)
+- Content (Nội dung chính)
+- Footer
+
+
+II. Steps to build a website
+1. Phân tích (từ bản mẫu)
+2. Dựng base
+3. Xây dựng từng phần theo phân tích
+4. Hoàn thiện
+
+TEMPLATE MẪU: https://www.w3schools.com/w3css/tryw3css_templates_band.htm#band
+
+MEDIA QUERIES
+
+PC: >= 1024px
+Tablet: >= 740px & < 1024px
+Mobile: < 740px

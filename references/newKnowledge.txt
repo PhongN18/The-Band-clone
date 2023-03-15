@@ -1,0 +1,45 @@
+1. text-align: justify;  -> căn trái phải thẳng hàng
+
+2. display: inline-block/block; -> cho components có dạng block, điều chỉnh được w, h, inline để không xuống dòng
+
+3. list-style-type: none; -> xóa bullets trong ul,li
+
+4. text-transform: uppercase/lowercase
+
+5. Function calc()
+
+6. Modal (hoặc có thể hiểu là popup :v)
+
+7. Overlay (lớp phủ mờ khi mở modal)
+
+8. JAVASCRIPT:
+Khai báo biến: const tên-biến = document.querySelector('.tên-class') 
+tên-biến.classList.add('.tên-class-thêm') hoặc tên-biến.classList.remove('.tên-class-xóa')
+-> Thêm hoặc xóa class vào một thẻ có class .tên-class
+
+9. Keyframe: tạo chuyển động -> cách dùng: @keyframes
+
+***Khai biến:
+- Biến global
+:root {
+    --tên biến: giá trị;
+}
+
+VD: 
+:root {
+    --yellow-color: #ffa400;
+}
+
+- Biến local
+.class/#ID {
+    --tên biến: giá trị;
+}
+
+***Sử dụng biến:
+.class/#ID {
+    (khai báo trước nếu là biến local)
+    attribute: var(--tên biến)
+}
+
+* BIẾN TRONG CSS ƯU TIÊN TỪ TRONG RA NGOÀI/TỪ THẺ CHỨA NÓ RỒI MỚI ĐẾN CÁC THẺ LỚN HƠN
+or "Nếu nó hoặc phần tử cha chứa nó không có thuộc tính thì nó cứ lấy ra ngoài cho đến khi tới thẻ <html>"
